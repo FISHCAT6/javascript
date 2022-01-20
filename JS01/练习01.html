@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var choice = prompt('欢迎实用简易计算器:' + '\n' + '1.加法运算;' + '\n' + '2.乘法运算;' + '\n' + '请输入您的选项:')
+        var choice = parseInt(choice)
+        switch (choice) {
+            case 1:
+                var number_1 = parseInt(prompt('输入第一个数字'));
+                var number_2 = parseInt(prompt('输入第二个数字'));
+                var number_3 = number_1 + number_2;
+                alert('结果是:' + number_3)
+            case 2:
+                var number_1 = prompt('输入第一个数字');
+                var number_2 = prompt('输入第二个数字');
+                var number_3 = number_1 * number_2;
+                alert('结果是:' + number_3)
+            case 3:
+                var number_1 = prompt('输入第一个数字');
+                var number_2 = prompt('输入第二个数字');
+                var number_3 = number_1 / number_2;
+                alert('结果是:' + number_3)
+        }
+    </script>
+</body>
+
+</html>
